@@ -10,6 +10,13 @@ nav{
     background-color:#011936FF;
     width:100vw;
     height:10vh;
+    color:#F4FFFDFF;
+   text-align:center;
+   display:flex;
+   align-items:center;
+   
+   
+
 }
 
 main{
@@ -23,4 +30,21 @@ footer{
     background-color:#011936FF;
     width:100vw;
     height:5vh;
+    color:#F4FFFDFF;
+    font-family:"Monoton","cursive";
+    text-align:center;
+}
+
+/* Boilerplate css rules with flex box */
+
+
+
+
+
+h2{
+    
+   flex:1 1 auto;
+   font-size: 40px;
+   font-family:"Monoton";
+
 }
