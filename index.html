@@ -10,23 +10,122 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"> 
+
+
+        <script src="https://kit.fontawesome.com/b059fb043d.js" crossorigin="anonymous" ></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
     </head>
 
 
 
     <body>
 
-        <nav>
+        <header>
 
-            <h2>SKETCH</h2>
+            <i class='fas fa-align-justify' id="menuicon" style='font-size:24px'></i>
+            <h2 class="h2">SKETCH</h2>
+          
        
-         
+            
+        </header>
 
-        
-        </nav>
-        <main>ddddd</main>
+
+        <main>
+            
+            <div class="menu" id="menu">
+
+
+
+                <div class="menuitems">
+
+
+                    <div class="menuh">
+
+                        <h2>Menu</h2>
+                    
+                    </div>
+
+
+                    <div class="menucolor" id="menucolor">
+
+                        <p class="menucolorh">Color:</p>
+
+
+                        <label id="1color">1</label>
+                        <input type="radio" name="color" id="1color" checked>
+
+                        <label id="2color">2</label>
+                        <input type="radio" name="color" id="2color">
+
+                        <label id="3color">3</label>
+                        <input type="radio" name="color" id="3color">
+                        <br>
+
+                        <input class="color1" id="color" type="color">
+
+
+
+
+                        <p class="menucolorh">Background:</p>
+
+                        <input class="color1" id="bg-color" type="color">
+
+
+                        <p class="menucolorh">Modes:</p>
+
+                        <label id="Rainbow">Rainbow</label>
+                        <input type="radio" name="Mode" id="rainbow">
+
+                        <label id="random">Random</label>
+                        <input type="radio" name="Mode" id="random">
+                        <br>
+
+
+
+
+                    </div>
+
+
+
+                    <div class="menuthickness" id="menuthickness">
+
+                        <p class="menucolorh">Size:</p>
+                        <input type="range" min="16" max="100" id="gridsize">
+                        
+                    </div>
+
+
+
+                    <div class="menugenfunc" id="menugenfunc">
+
+                        <p class="menucolorh">General Settings:</p>
+
+                        <button >Erase</button> <button >Erase All</button>
+                    </div>
+                    
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="sketcharea" id="sketcharea"></div>
+
+
+        </main>
+
+
+
+
         <footer>
-            <small>Copyright@NotAndyforsure/Github</small>
+            
+            <small>Copyright@NotAndyforsure</small><img src="./images/25231.png" >
         </footer>
 
 

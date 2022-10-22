@@ -1,50 +1,210 @@
-body{
-    display:flex;
-    flex-direction:column;
-    margin:0px;
-    padding:0px;
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    position:fixed;
+}
+
+header {
+    background-color: #011936FF;
+    width: 100vw;
+    height: 10vh;
+    color: #F4FFFDFF;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    
+
+
+
+}
+
+main {
+    background-color: #F4FFFDFF;
+    width: 100vw;
+    height: 85vh;
+}
+
+footer {
+
+    background-color: #011936FF;
+    width: 100vw;
+    height: 5vh;
+    color: #F4FFFDFF;
+    font-family: "Monoton", "cursive";
+    text-align: center;
+    display:inline;
     
 }
 
-nav{
-    background-color:#011936FF;
-    width:100vw;
-    height:10vh;
-    color:#F4FFFDFF;
-   text-align:center;
-   display:flex;
-   align-items:center;
-   
-   
+.h2 {
+
+    flex: 1 1 auto;
+    font-size: 40px;
+    font-family: "Monoton";
 
 }
 
-main{
-    background-color:#F4FFFDFF;
-    width:100vw;
-    height:85vh; 
+/* Boilerplate css rules and nav and footer rules included */
+
+
+main {
+    display: flex;
+    flex-direction: row;
 }
 
-footer{
 
-    background-color:#011936FF;
-    width:100vw;
-    height:5vh;
+
+.sketcharea {
+    width: 100vw;
+    height: 85vh;
+    background-color: #F4FFFDFF;
+}
+
+.menu {
+    display:"";
+    width: 20vw;
+    height: 85vh;
+    background-color: #011936FF;
+
+}
+
+
+
+
+i {
+    
+    flex: 1 1 10px;
+    font-size: 60px;
+    padding-left:15px;
+
+}
+
+
+
+.menuh{
     color:#F4FFFDFF;
     font-family:"Monoton","cursive";
     text-align:center;
+    flex:auto;
 }
 
-/* Boilerplate css rules with flex box */
+.menuitems{
 
+    display:flex;
+    flex-direction:column;
+}
 
+.menucolorh{
 
-
-
-h2{
+    color:#F4FFFDFF;
+    font-family:"cursive";
+    font-size:22px;
+    padding-right:10px;
+    margin-bottom:0;
     
-   flex:1 1 auto;
-   font-size: 40px;
-   font-family:"Monoton";
+}
+
+label{
+    color:#F4FFFDFF;
+    font-family:"cursive";
+   
+}
+
+.color1{
+    margin-top:15px;
+    width:30px;
+    height:30px;
+    padding:8px;
+    border-radius:50%;
+}
+
+.menucolor{
+
+    padding-left:12px;
+    flex:auto;
+}
+
+img{
+ 
+
+width:100%;
+height:auto;
+max-width:20px;
+padding-left:7px;
+position:relative;
+top:5px;
+    
+    
+}
+
+.menuthickness{
+    flex:auto;
+    padding-left:8px;
+}
+
+.menugenfunc{
+
+    flex:auto;
+    padding-left:8px;
 
 }
+
+button{
+
+    margin-top:10px;
+}
+
+
+
+@media screen and (max-width:900px){
+
+    #menu{
+   
+        width:50vw;
+        height:85vh;
+       
+
+    }
+
+    #sketcharea{
+        width:50vw;
+        height:85vh;
+    }
+
+    i {
+        flex: 1 1 10px;
+        font-size: 20px;
+        padding-left:15px;
+        background:color;
+        
+
+
+    
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
