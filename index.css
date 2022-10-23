@@ -63,7 +63,7 @@ main {
 }
 
 .menu {
-    display:"";
+   
     width: 20vw;
     height: 85vh;
     background-color: #011936FF;
@@ -169,7 +169,7 @@ button{
     }
 
     #sketcharea{
-        width:50vw;
+        width:100vw;
         height:85vh;
     }
 
@@ -187,6 +187,23 @@ button{
    
 
 }
+
+
+/* Main section ui setup */
+
+
+
+
+.menu-on{
+    display:none;
+   
+}
+
+
+
+
+
+/* Functions section  */
 
 
 
