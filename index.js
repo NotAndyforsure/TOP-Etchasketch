@@ -426,7 +426,7 @@ function findManyColors(ele,num){
         case 1:
 
             ele.style.backgroundImage=`linear-gradient(${colorone.value},${colorone.value})`
-            
+
         break;
 
         case 2:
@@ -473,14 +473,7 @@ function rgbNum(){
     
 //random rgb function--------------------------------------------------------------------------------------------------------------------------------------------
 
-function rainbowGen(){
 
-    let rainbowArr=["violet","indigo","blue","green","yellow","orange","red"]
-    
-
-    return rainbowArr[Math.floor(Math.random()*8)]
-    
-}
 
 
 
