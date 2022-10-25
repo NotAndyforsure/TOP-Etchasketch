@@ -20,7 +20,7 @@
 
 
 
-    <body>
+    <body ondragstart="return false" >
 
         <header>
 
@@ -32,7 +32,7 @@
         </header>
 
 
-        <main>
+        <main draggable="false">
             
             <div class="menu" id="menu">
 
@@ -54,18 +54,18 @@
 
 
                         <label id="onecolor">1</label>
-                        <input type="radio" name="color" id="onecolor" class="onecolor" checked>
+                        <input type="radio" name="color" id="onecolor" class="onecolor" autocomplete="off">
 
                         <label id="twocolor">2</label>
-                        <input type="radio" name="color" class="twocolor" id="twocolor">
+                        <input type="radio" name="color" class="twocolor" id="twocolor" autocomplete="off">
 
                         <label id="threecolor">3</label>
-                        <input type="radio" name="color" class="threecolor" id="threecolor">
+                        <input type="radio" name="color" class="threecolor" id="threecolor" autocomplete="off">
                         <br>
 
                         <div id="color">
 
-                            <input class="color1" id="color1" type="color">
+                          
 
                         </div>
                         
@@ -75,16 +75,16 @@
 
                         <p class="menucolorh">Background:</p>
 
-                        <input class="color1" id="bg-color" type="color">
+                        <input class="color1" id="bg-color" type="color" value="#F4FFFD">
 
 
                         <p class="menucolorh">Modes:</p>
 
                         <label id="Rainbow">Rainbow</label>
-                        <input type="radio" name="Mode" id="rainbow">
+                        <input type="radio" name="Mode" class="rainbow" id="rainbow" autocomplete="off">
 
                         <label id="random">Random</label>
-                        <input type="radio" name="Mode" id="random">
+                        <input type="radio" name="Mode" id="random" class="random" autocomplete="off">
                         <br>
 
 
@@ -97,7 +97,7 @@
                     <div class="menuthickness" id="menuthickness">
 
                         <p class="menucolorh">Size:</p>
-                        <input type="range" min="16" max="100" id="gridsize">
+                        <input type="range" min="16" max="150" id="gridsize">
                         
                     </div>
 
@@ -107,7 +107,7 @@
 
                         <p class="menucolorh">General Settings:</p>
 
-                        <button id="erase">Erase</button> <button id="eraseall">Erase All</button>
+                        <button id="erase">Erase</button> <button id="eraseall">Clear</button>
                     </div>
                     
 
@@ -120,7 +120,7 @@
 
 
 
-            <div class="sketcharea" id="sketcharea"></div>
+            <div class="sketcharea" id="sketcharea" draggable="false"></div>
 
 
         </main>
