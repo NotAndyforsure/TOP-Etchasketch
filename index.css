@@ -187,11 +187,7 @@ button{
         padding:0;
     }
     
-    .mainwmenu{
-        width:50vw;
-        height:85vh;
-        
-    }
+   
 
     i {
         flex: 1 1 10px;
@@ -229,10 +225,7 @@ button{
     background-image:"";
 }
 
-.mainwmenu{
-     width:80vw;
-    height:85vh;
-}
+
 
 
 
