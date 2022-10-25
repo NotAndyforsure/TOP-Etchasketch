@@ -7,7 +7,7 @@ let howManyColors=0
 
 const menuIcon=document.querySelector("#menuicon")
 const menu=document.querySelector("#menu")
-const main=document.querySelector("main")
+
 
 
 menu.classList.toggle("menu-on")
@@ -15,7 +15,7 @@ menuIcon.addEventListener("click",function(){
    
     
     menu.classList.toggle("menu-on")
-   main.ClassList.toggle("mainwmenu")
+  
 
     
 })
